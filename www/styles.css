@@ -1,0 +1,339 @@
+body {
+	font-family:  Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #F0F8FF;
+	color: #191970;
+}
+
+header {
+	top: 0%;
+	width: 100%;
+	position: sticky;
+	color: #191970;
+	background-color: #B0C4DE;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+section {
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+nav {
+	font-weight: bold;
+	font-size: large;
+	margin-right: 30px;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+nav ul li {
+	color: #191970;
+	margin-right: 10px;
+}
+
+nav ul li a {
+	color: #191970;
+	transition: color 0.2s ease;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+nav ul li a:hover {
+	background-color: #6E6E9E;
+	color: #FFF;
+}
+
+section {
+	padding: 50px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #191970;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* -------------------------- INDEX SECTION -------------------------- */
+
+#index-section {
+	display: flex;
+	justify-content:  center;
+	align-items: center;
+	text-align: center;
+}
+
+.index-container {
+	display: inline-block;
+	justify-content:  center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: justify;
+	width: 55%;
+	padding: 20px;
+	background-color: #FFF;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.index-container p {
+	margin-bottom: 10px;
+}
+
+.index-container ul {
+	list-style-type: square;
+}
+
+.index-container li {
+	padding: 5px;
+
+}
+
+.index-container a {
+	font-weight: bold;
+	color: #191970;
+	text-decoration: none;
+}
+
+.index-container a:hover {
+	color: #6E6E9E;
+}
+
+/* -------------------------- ABOUT SECTION -------------------------- */
+#about-section {
+	text-align: center;
+}
+
+.about-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: justify;
+	width: 45%;
+	padding: 20px;
+	background-color: #FFF;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+}
+
+.about-container h3 {
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.about-container p {
+	margin-bottom: 10px;
+}
+
+.about-container .profile-button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #191970;
+	color: #FFF;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+.about-container .profile-button:hover {
+	background-color: #6E6E9E;
+}
+
+.about-container a {
+	font-weight: bold;
+	color: #191970;
+	text-decoration: none;
+}
+
+.about-container a:hover {
+	color: #6E6E9E;
+}
+
+.team-member {
+	margin-bottom: 40px;
+}
+
+.team-member h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.team-member p {
+	margin-bottom: 20px;
+}
+
+.team-member a {
+	color: #191970;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+.team-member a:hover {
+	color: #6E6E9E;
+}
+
+/* -------------------------- UPLOAD SECTION -------------------------- */
+#form-section {
+	display: flex;
+	justify-content:  center;
+	align-items: center;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.form-container {
+	margin: 20px;
+	display: inline-block;
+	text-align: left;
+	width: 50%;
+	padding: 20px;
+	background-color: #FFF;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.message-container {
+	text-align: center;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	background-color: #FFF;
+
+}
+form {
+	background-color: #FFF;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+	margin-bottom: 50;
+}
+
+form div {
+	margin-bottom: 15px;
+}
+
+form label {
+	display: block;
+	font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+form textarea {
+	height: 120px;
+}
+
+form input[type="submit"] {
+	background-color: #191970;
+	color: #FFF;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+form input[type="submit"]:hover {
+	background-color: #6E6E9E;
+}
+
+/* -------------------------- ERROR PAGES SECTION -------------------------- */
+#error-page-section {
+	display: flex;
+	justify-content:  center;
+	align-items: center;
+	text-align: center;
+}
+.err-page-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.err-page-container h2 {
+	font-weight: bold;
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+.err-page-container h3 {
+	font-weight:lighter;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.err-page-container p {
+	margin-bottom: 10px;
+}
+
+.err-page-container a {
+	color: #191970;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+.err-page-container a:hover {
+	color: #6E6E9E;
+}
+
+.err-page-container .home-button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #191970;
+	color: #FFF;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+.err-page-container .home-button:hover {
+	background-color: #6E6E9E;
+}
